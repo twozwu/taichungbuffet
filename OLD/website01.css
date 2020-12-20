@@ -1,0 +1,101 @@
+@charset "utf-8";
+#video-background {
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: -100;
+}
+.video-caption {
+    margin-top: 20%;
+}
+.video-caption.text-center h1 {
+	color: #FFFFFF;
+    font-family: "微軟正黑體", Arial, Heletica;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.margintop-30 {
+    margin-top: 30px;
+}
+.wow.bounceInUp .margintop-30 .btn.btn-warning {
+    color: #FFFFFF;
+}
+.video-background iframe {
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: -100;
+}
+#production {
+    padding-top: 40px;
+}
+#mainmenu {
+}
+.jumbotron {
+    color: #FFFFFF;
+    background-image: url(images/pic51.jpg);
+    background-attachment: fixed;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    min-height: 1365px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-width: 100%;
+}
+body {
+    font-family: "微軟正黑體", Arial, Heletica;
+    font-weight: bold;
+}
+#production {
+}
+.container .row nav {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+#sportlogo {
+    margin-top: 0px;
+    padding-top: 40px;
+}
+.bgcolor {
+    color: #FFFFFF;
+    background-color: #E47303;
+}
+#buyrules {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.box {
+    border-radius: 6px;
+    background-color: #E5E5E5;
+}
+#footer {
+    background-color: #2C3E50;
+    color: #FFFFFF;
+}
+.navbar-nav.mx-auto .nav-item .nav-link img {
+    margin-top: -15px;
+    margin-right: 10px;
+}
+span.error-tips,span.error-tips::before {
+    font-family: "Font Awesome 5 Free";
+	color:red;
+    content: "\f06a";
+}
+span.valid-tips,span.valid-tips::before {
+    font-family: "Font Awesome 5 Free";
+    color: greenyellow;
+    content: "\f164";
+	font-size:80px;
+}
+

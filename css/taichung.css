@@ -1,0 +1,36 @@
+.margin-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.padding-all{
+    padding: 15px;
+}
+
+.bd {
+    border-style: dashed;
+}
+
+.form-row,
+.form-group>label {
+    color: #FFF;
+}
+
+.media {
+    background: none;
+    color: white;
+}
+
+.orderf {
+    border-color: rgba(6, 13, 27, 0.61);
+}
+
+.margin {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+}
+
+.row-background{
+    background-image: url("images\bd_bg.jpg");
+}
